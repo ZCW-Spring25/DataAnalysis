@@ -3,6 +3,18 @@ develop good data analysis presentation skills
 
 This lab encourages you to analyze data and present your findings in a clear and concise manner. You will be working with a dataset of your choice. You will be required to generate a Jupyter notebook that explores the data and presents your findings. You will be required to submit the Jupyter notebook and a data analysis report. The report should be a PDF file that provides a high-level overview of your analysis.
 
+But be for you do that, you need to look thru the data and figure out what's here.
+
+Best to think of this as a Multi-Phase lab, one that takes a few days more than normal.
+
+## To Get Started
+
+Look thru EACH dataset, and create a markdown file that describes what you find in the dataset. 
+Try to describe what you think the data is from, how it was collected and what it **might** show if you did some
+analysis on it.
+
+## Data Analysis Report
+
 A data analysis report is a document that summarizes the findings and insights obtained from analyzing a dataset. It provides a comprehensive overview of the analysis process, including the data sources, methodology, and techniques used. The report typically includes visualizations, statistical summaries, and interpretations of the data.
 
 In a data analysis report, it is important to structure the content in a logical and organized manner. This includes providing an introduction to the analysis, explaining the objectives and scope, and describing the data preprocessing steps. The main body of the report should present the analysis results, such as key findings, trends, patterns, and correlations discovered in the data.
@@ -36,3 +48,11 @@ The sources for the data sets can be found at: [s3://yoda-public-files/DataAsset
 - The report should include visualizations, statistical summaries, and interpretations of the data
 - The report should include clear and concise explanations of the analysis methods used
 
+### Datapipelines
+
+- Use one or more of these datasets to do a summarization pipeline
+- read the file into a pipeline
+- perform various analytical functions on the dat as makes sense
+- these might be averages, max/min, most popular, or whatever might be interesting to look at
+- build the notebook to do the EDA
+- build a python script to orchestrate the data from loading thru analytics to some kind of output (visualization or summary)
